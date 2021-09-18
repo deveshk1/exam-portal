@@ -15,7 +15,6 @@ public class UserRole {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
     private Long userRoleId;
 
     //A role will belong to a single user only
